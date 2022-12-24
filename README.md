@@ -5,29 +5,29 @@
 </p>
 
 <h1 align="center">
-  Chromatic's Intro to Storybook React template
+  Chromatic's Intro to Storybook tutorial code
 </h1>
 
-This template ships with the main React and Storybook configuration files you'll need to get up and running fast.
+This repository holds the main React and Storybook configuration files for the Intro to Storybook tutorial.
 
 ## 🚅 Quick start
 
-1.  **Create the application.**
+1.  **Clone the repository.**
 
-    Use [degit](https://github.com/Rich-Harris/degit) to get this template.
+    Run the following command to clone the repository.
 
     ```shell
     # Clone the template
-    npx degit chromaui/intro-storybook-react-template taskbox
+    git clone https://github.com/chromaui/learnstorybook-code.git
     ```
 
 1.  **Install the dependencies.**
 
-    Navigate into your new site’s directory and install the necessary dependencies.
+    Navigate into your newly cloned repository and install the necessary dependencies.
 
     ```shell
     # Navigate to the directory
-    cd taskbox/
+    cd learnstorybook-code/
 
     # Install the dependencies
     yarn
@@ -35,7 +35,7 @@ This template ships with the main React and Storybook configuration files you'll
 
 1.  **Open the source code and start editing!**
 
-    Open the `taskbox` directory in your code editor of choice and building your first component!
+    Open the `learnstorybook-code` directory in your code editor of choice browse what's inside!
 
 1.  **Browse your stories!**
 
@@ -51,7 +51,6 @@ A quick look at the top-level files and directories included with this template.
     ├── public
     ├── src
     ├── .gitignore
-    ├── LICENSE
     ├── package.json
     ├── yarn.lock
     └── README.md
@@ -66,17 +65,15 @@ A quick look at the top-level files and directories included with this template.
 
 5.  **`.gitignore`**: This file tells git which files it should not track or maintain during the development process of your project.
 
-6.  **`LICENSE`**: The template is licensed under the MIT licence.
+6.  **`package.json`**: Standard manifest file for Node.js projects, which typically includes project specific metadata (such as the project's name, the author among other information). It's based on this file that npm will know which packages are necessary to the project.
 
-7.  **`package.json`**: Standard manifest file for Node.js projects, which typically includes project specific metadata (such as the project's name, the author among other information). It's based on this file that npm will know which packages are necessary to the project.
+7.  **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
 
-8.  **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
-
-9.  **`README.md`**: A text file containing useful reference information about the project.
+8.  **`README.md`**: A text file containing useful reference information about the project.
 
 ## Contribute
 
-If you encounter an issue with the template, we encourage you to open an issue in this template's repository.
+If you encounter an issue with the repository, we encourage you to open an issue.
 
 ## Learning Storybook
 
